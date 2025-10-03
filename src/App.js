@@ -15,7 +15,7 @@ function App() {
       <Projects />
       <Contact />
       <footer className="footer">
-        <p>&copy; 2024 Product Designer. All rights reserved.</p>
+        <p>&copy; 2025 software developer. All rights reserved.</p>
       </footer>
     </div>
   );
