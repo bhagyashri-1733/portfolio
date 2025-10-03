@@ -47,7 +47,7 @@ function About() {
           <h3 className="skills-title">Skills & Expertise</h3>
           <div className="skills-grid">
             {skills.map((skill, index) => (
-              <div key={index} className="skill-item">
+              <div key={index} className="skill-item" style={{ animationDelay: `${index * 0.2}s` }}>
                 <div className="skill-header">
                   <span className="skill-name">{skill.name}</span>
                   <span className="skill-percentage">{skill.level}%</span>
