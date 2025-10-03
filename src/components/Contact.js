@@ -114,10 +114,6 @@ function Contact() {
             <p>bhagyashrithombre.it@gmail.com</p>
           </div>
           <div className="contact-item">
-            <h4>Mobile</h4>
-            <p>9307412779</p>
-          </div>
-          <div className="contact-item">
             <h4>Location</h4>
             <p>Mumbai, India</p>
           </div>
