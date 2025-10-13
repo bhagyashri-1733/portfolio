@@ -22,12 +22,38 @@
   gap: 30px;
 }
 
+.hero-buttons {
+  display: flex;
+  gap: 16px;
+}
+
+.hero-btn-secondary {
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+
 .hero-title {
   font-size: 80px;
   font-weight: 700;
   line-height: 1.1;
   color: #2c2c2c;
   margin: 0;
+}
+
+.hero-name {
+  animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .hero-description {
@@ -87,19 +113,29 @@
   }
 }
 
+@media (max-width: 968px) {
+  .hero-buttons {
+    flex-direction: column;
+  }
+
+  .hero-btn {
+    align-self: stretch;
+  }
+}
+
 @media (max-width: 768px) {
   .hero {
     padding: 100px 20px 40px;
   }
-  
+
   .hero-title {
     font-size: 48px;
   }
-  
+
   .hero-description {
     font-size: 16px;
   }
-  
+
   .placeholder-image {
     max-width: 100%;
     height: 300px;

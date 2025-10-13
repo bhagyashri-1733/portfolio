@@ -15,7 +15,7 @@ function Hero() {
       <div className="hero-container">
         <div className="hero-content">
           <h1 className="hero-title">
-            Software<br />Developer
+            <span className="hero-name">Bhagyashri Thombre</span><br />
           </h1>
           <p className="hero-description">
             Software Developer with experience in ReactJS and Django, proficient in building responsive, pixel-perfect
@@ -23,7 +23,10 @@ function Hero() {
             high-performance web applications.
 
           </p>
-          <button className="hero-btn" onClick={handleViewWork}>View My Work</button>
+          <div className="hero-buttons">
+            <button className="hero-btn" onClick={handleViewWork}>View My Work</button>
+            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" download className="hero-btn hero-btn-secondary">Download Resume</a>
+          </div>
         </div>
         <div className="hero-image">
           <img src="/imgg.jpeg" alt="Software Developer" className="placeholder-image" />
