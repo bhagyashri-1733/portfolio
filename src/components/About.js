@@ -27,20 +27,23 @@ function About() {
             I’ve also built projects like an E-commerce site, Real Estate platform, and Chat App, which strengthened my skills in creating full-stack applications that are functional and user-friendly.
             I enjoy solving real problems through clean code and collaborative teamwork, always aiming to build products that people love to use.
           </p>
+          <a href="./Resume.pdf" download="Bhagyashri_resume.pdf" className="download-resume-btn">Download Resume</a>
         </div>
         <div className="experience-content">
           <h3 className="experience-title">Experience</h3>
           <div className="experience-item">
+            <h4>Software Developer</h4>
+            <p className="experience-duration">July 2023 - August 2024</p>
+            <p className="experience-company">
+              <a href="https://www.creatosaurus.io/" target="_blank" rel="noopener noreferrer">Creatosaurus, Pune, India</a>
+            </p>
+            
             <h4>Junior Software Developer</h4>
             <p className="experience-duration">Sep 2024 - Present</p>
             <p className="experience-company">
               <a href="https://www.siclarity.com" target="_blank" rel="noopener noreferrer">Siclarity Software Solutions Pvt Ltd</a>, Mumbai, India
             </p>
-            <ul className="experience-description">
-              <li>Developing and maintaining a high-performance Semiconductor Chip Designing Platform. Building dynamic, responsive UI components using ReactJS, Bootstrap, and JavaScript to enhance usability and user experience.</li>
-              <li>Collaborating with backend and product teams to deliver features aligned with chip design workflows. Contributed to backend development using Python (Django), working on RESTful APIs, data models, and server-side logic.</li>
-              <li>Worked with PostgreSQL and DBeaver for database design, queries, and data handling. Designing scalable and reusable frontend components with a focus on maintainability and cross-browser compatibility.</li>
-            </ul>
+            
           </div>
         </div>
         <div className="skills-content">
